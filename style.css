@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing:border-box;
     text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* overflow: hidden; */
     /* font-size: 1.rem; */
 }
 body{
@@ -59,8 +61,10 @@ body{
     border: 1px solid transparent;
     text-align: center;
     cursor: pointer;
+    outline: none;
 }
 .container form .profile-pic{
+    overflow: hidden;
     /* position: absolute;
     top:50px;
     left: 80px; */
@@ -73,8 +77,9 @@ body{
 }
 .container form .profile-pic img{
     width: 150px;
+    height: 150px;
     border-radius: 100%;
-    border: 10px solid white;
+    border: 10px solid #ff7246;
     overflow: hidden;
     
 }
@@ -145,7 +150,105 @@ body{
     color: #858686;
     outline: none;
 }
+label,i{
+    cursor: pointer;
+}
+.hobbie input[type="checkbox"]{
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 5px #cbced1, inset -5px -5px 5px #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: #858686;
+    outline: none;
+
+}
+.hobbie input[type="checkbox"]:checked{
+/* box-shadow: -4px -4px 4px #000000, 4px 4px 4px #ff7246; */
+box-shadow: none;
+}
+.language input[type="checkbox"]:checked{
+box-shadow: -4px -4px 4px #feffff, 4px 4px 4px #161b1d2f;
+}
 .input1{
     width: 100%;
-    display: inline-block;
+    height: 70px;
+    /* display: inline-block; */
 }
+#mail,#ph,#home,#site{
+    height: 40px;
+    /* display: flex; */
+    /* flex-direction:row; */
+    /* justify-content: space-around; */
+    
+    /* margin-top: 10px; */
+}
+.contact,.profile,.hobbie{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: ; */
+}
+.profile{
+    width: 90%;
+}
+.subcontact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    /* background: red; */
+}
+.subcontact input{
+    width: 80%;
+    /* height: 500px; */
+}
+
+.side1 i{
+    font-size: 20px;
+    color: #ff7246;
+    font-weight: bold;
+}
+.hobbie-option ,.option1,.option2,.option3,.option4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* background: red; */
+    /* column-gap: 22; */
+    
+}
+.hobbie-option i{
+    margin: 0 20px;
+    /* display: inline-block; */
+    /* width: 50px; */
+    /* background: red; */
+    
+}
+h3{
+    color: #ff7246;
+    font-weight: bolder;
+
+}
+.side2 .education label{
+    text-transform: capitalize;
+}
+
+.side2 .education input{
+    height: 30px;
+}
+.side2 .education label ,input{
+    display: inline;
+}
+.marks{
+    width: 100%;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
+
