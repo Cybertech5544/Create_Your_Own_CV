@@ -32,45 +32,47 @@
                 <section class="side1 side">
                     <div class="profile">
                         <h3>profile</h3>
-                        <input class="input1" type="text" name="aboutme" id="aboutme">
+                        <textarea name="aboutme" id="aboutme" class="input1" placeholder="about yourself" ></textarea>
+
                     </div>
                     <div class="contact">
                         <h3>contact</h3>
-                        <div class="mail">
+                        <div class="mail subcontact">
                             <label for="mail"><i class="bi bi-envelope"></i></label>
-                            <input type="email" name="email" id="mail">
+                            <input type="email" name="email" id="mail" value="example@example.com">
                         </div>
-                        <div class="phone">
-                            <label for="ph"><i class="bi bi-telephone"></i></label>
-                            <input type="number" name="ph" id="ph">
+                        <div class="phone subcontact">
+                            <label for="ph"><i class="bi bi-telephone" ></i></label>
+                            <input type="number" name="ph" id="ph" value="0000000000">
                         </div>
-                        <div class="home">
+                        <div class="home subcontact">
                             <label for="home"><i class="bi bi-house-door"></i></label>
-                            <input type="text" name="home" id="home">
+                            <input type="text" name="home" id="home" value="example home">
                         </div>
-                        <div class="website">
+                        <div class="website subcontact">
                             <label for="site"><i class="bi bi-globe"></i></label>
-                            <input type="url" name="site" id="site">
+                            <input type="url" name="site" id="site" value="https://example.com">
                         </div>
                     </div>
                     <div class="hobbie">
                         <h3>hobbies</h3>
                         <div class="hobbie-option">
                             <div id="option1">
-                                <label for="photo"><i class="bi bi-camera"></i> Photography</label>
-                                <input type="checkbox" name="photo" id="photo">
+                                <label for="photo"><i class="bi bi-camera"> </i> Photography</label>
+                                <input class="checkbox"
+                                type="checkbox" name="photo" id="photo" checked>
                             </div>
                             <div id="option2">
-                                <label for="reading"><i class="bi bi-book"></i> Reading</label>
-                                <input type="checkbox" name="photo" id="photo">
+                                <label for="reading"><i class="bi bi-book"> </i> Reading</label>
+                                <input type="checkbox" name="photo" id="photo" checked>
                             </div>
                             <div id="option3">
-                                <label for="music"><i class="bi bi-music-note-beamed"></i> Music</label>
-                                <input type="checkbox" name="music" id="music">
+                                <label for="music"><i class="bi bi-music-note-beamed"> </i> Music</label>
+                                <input type="checkbox" name="music" id="music" checked>
                             </div>
                             <div id="option4">
-                                <label for="writing"><i class="bi bi-pencil-square"></i> Writing</label>
-                                <input type="checkbox" name="writing" id="writing">
+                                <label for="writing"><i class="bi bi-pencil-square"> </i> Writing</label>
+                                <input type="checkbox" name="writing" id="writing" checked>
                             </div>
                         </div>
                     </div>
@@ -87,12 +89,12 @@
                             <input type="text" name="school" id="md"> -->
 
 
-                            <label for="year1">passing year</label>
-                            <input type="number" min="1900" max="2099" step="1" value="2016" id="year1">
-
+                            
                             <div class="marks">
+                                <label for="year1">passing year</label>
+                                <input type="number" min="1900" max="2099" step="1" value="2016" id="year1">
                                 <label for="marks1">obtaing marks :</label>
-                                <input type="number" min="0.00" max="100.00" step="1" name="marks" id="marks1"><i
+                                <input type="number" min="0.00" max="100.00" step="1" name="marks" id="marks1" value="00.00"><i
                                     class="fa-solid fa-percent"></i>
                             </div>
 
@@ -107,75 +109,75 @@
                                 institution :</label>
                             <input type="text" name="school" id="md"> -->
 
-                            <label for="year2">passing year</label>
-                            <input type="number" min="1900" max="2099" step="1" value="2016" id="year2">
-
+                            
                             <div class="marks">
+                                <label for="year2">passing year</label>
+                                <input type="number" min="1900" max="2099" step="1" value="2016" id="year2">
                                 <label for="marks2">obtaing marks :</label>
-                                <input type="number" min="0.00" max="100.00" step="1" name="marks" id="marks2"><i
+                                <input type="number" min="0.00" max="100.00" step="1" name="marks" id="marks2" value="00.00"><i
                                     class="fa-solid fa-percent"></i>
                             </div>
 
                         </div>
                     </div>
                     <div class="skill">
-                        <h4>skill</h4>
+                        <h3>skill</h3>
 
                         <div class="language">
                             <h5>language</h5>
                             <label for="c">c</label>
-                            <input type="checkbox" name="" id="c">
+                            <input type="checkbox" name="" id="c" checked>
 
                             <label for="c++">c++</label>
-                            <input type="checkbox" name="" id="c++">
+                            <input type="checkbox" name="" id="c++" checked>
 
                             <label for="c#">c#</label>
-                            <input type="checkbox" name="" id="c#">
+                            <input type="checkbox" name="" id="c#" checked>
 
                             <label for="Javascript">Javascript</label>
-                            <input type="checkbox" name="" id="Javascript">
+                            <input type="checkbox" name="" id="Javascript" checked>
 
                             <label for="Python">Python</label>
-                            <input type="checkbox" name="" id="Python">
+                            <input type="checkbox" name="" id="Python" checked>
 
                             <label for="Java">Java</label>
-                            <input type="checkbox" name="" id="Java">
+                            <input type="checkbox" name="" id="Java" checked>
 
                             <label for="PHP">PHP</label>
-                            <input type="checkbox" name="" id="PHP">
+                            <input type="checkbox" name="" id="PHP" checked>
 
                             <label for="Ruby">Ruby</label>
-                            <input type="checkbox" name="" id="Ruby">
+                            <input type="checkbox" name="" id="Ruby" checked>
 
                             <label for="SQL">SQL</label>
-                            <input type="checkbox" name="" id="SQL">
+                            <input type="checkbox" name="" id="SQL" checked>
 
                             <label for="HTML">HTML</label>
-                            <input type="checkbox" name="" id="HTML">
+                            <input type="checkbox" name="" id="HTML" checked>
 
                             <label for="CSS">CSS</label>
-                            <input type="checkbox" name="" id="CSS">
+                            <input type="checkbox" name="" id="CSS" checked>
 
                             <label for="dart">dart</label>
-                            <input type="checkbox" name="" id="dart">
+                            <input type="checkbox" name="" id="dart" checked>
 
                             <label for="node.js">node.js</label>
-                            <input type="checkbox" name="" id="node.js">
+                            <input type="checkbox" name="" id="node.js" checked>
 
                         </div>
                     </div>
 
                     <div class="experience">
-                        <h4>experience</h4>
+                        <h3>experience</h3>
 
                         <div class="ex">
                             <label for="experience1">experience-1 :</label>
-                            <textarea class="input1" id="experience1" name="experience1" rows="3" cols="40"></textarea>
+                            <textarea class="input1" id="experience1" name="experience1" rows="3" cols="40" placeholder="write your experience"></textarea>
                         </div>
 
                         <div class="ex">
                             <label for="experience2">experience-2 :</label>
-                            <textarea class="input1" id="experience2" name="experience2" rows="3" cols="40"></textarea>
+                            <textarea class="input1" id="experience2" name="experience2" rows="3" cols="40" placeholder="write your experience"></textarea>
                         </div>
                     </div>
                 </section>
